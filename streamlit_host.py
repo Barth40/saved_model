@@ -12,8 +12,7 @@ from tensorflow.keras.applications.densenet import preprocess_input as DenseNet_
 #from keras.applications.densenet import preprocess_input as DenseNet_preprocess_input 
 #tf.keras.applications.vgg16.preprocess_input
 
-#model = tf.keras.models.load_model("saved_model/mdl_wts.hdf5")
-model = tf.keras.models.load_model('saved_model/bestest_weights.hdf5', compile=False)
+model = tf.keras.models.load_model('bestest_weights.hdf5', compile=False)
 ### load file
 uploaded_file = st.file_uploader("Choose a image file", type="jpg")
 
