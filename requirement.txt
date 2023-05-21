@@ -11,3 +11,5 @@ pillow==8.4.0
 tensorflow==2.7.0
 tensorflow-addons==0.13.0
 tensorflow-addons==0.13.0
+freeglut3-dev
+libgtk2.0-dev
